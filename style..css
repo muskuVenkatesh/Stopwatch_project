@@ -1,95 +1,106 @@
- body{
+/* Set background color for the entire body */
+body {
     background-color: rgb(40, 38, 38);
-    display:flex;
+    display: flex;
     justify-content: center;
-    align-items:center;
-    height:100vh;
-}
-#container{
-    color:white;
+    align-items: center;
+    height: 100vh; /* Make the body take up the full viewport height */
 }
 
-.digit{
-    font-size:150px;
-    font-weight:bolder;
-  
-    border:0px solid white;
-    border-radius:50%;
-    margin:10px;
+/* Style for the main container holding the content */
+#container {
+    color: white;
+}
 
+/* Styling for the digits (numbers) */
+.digit {
+    font-size: 150px;
+    font-weight: bolder;
+    border: 0px solid white;
+    border-radius: 50%;
+    margin: 10px;
 }
-.txt{
-    color:rgb(129, 129, 148);
-    font-size:2rem;
-    font-weight:bold;
-    /* box-shadow: 1px 1px 30px 3px rgb(158, 155, 155); */
-    padding:10px;
-    border:1px solid rgb(40,38,38);
-    border-radius:100%;
-}
-#button-container{
-   
-    text-align:center;
-    margin-top:40px;
 
+/* Styling for the text (labels) */
+.txt {
+    color: rgb(129, 129, 148);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid rgb(40, 38, 38);
+    border-radius: 100%;
 }
-.btn{
-    padding:10px 15px;
-    font-size:15px;
-    font-weight:bold;
-    font-style:oblique;
-    margin:0px 10px;
-    cursor:pointer;
-    width:5em;
+
+/* Container for the buttons */
+#button-container {
+    text-align: center;
+    margin-top: 40px;
 }
-#start{
-    color:white;
-    background-color:cornflowerblue;
-    border:1px solid rgb(98, 112, 139);
-    border-radius:10px;
-    /* box-shadow:1px 1px 15px 3px red; */
-    font-size:1rem;
-    
+
+/* Styling for buttons */
+.btn {
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: oblique;
+    margin: 0px 10px;
+    cursor: pointer;
+    width: 5em;
 }
-#start:hover{
-    color:rgb(14, 60, 145);
+
+/* Styling for the Start button */
+#start {
+    color: white;
+    background-color: cornflowerblue;
+    border: 1px solid rgb(98, 112, 139);
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+/* Hover effect for the Start button */
+#start:hover {
+    color: rgb(14, 60, 145);
     background-color: cornsilk;
-    box-shadow:0px 1px 15px 3px rgb(6, 140, 153);
-    font-size:2rem;
-    font-style:oblique;
-    text-transform:lowercase;
-    
-}
-#stop{
-    color:whitesmoke;
-    background-color:rgb(100, 207, 237);
-    border:1px solid rgb(98, 112, 139);
-    border-radius:10px;
-    font-size:1rem;
-}
-#stop:hover{
-    color:rgb(14, 60, 145);
-    background-color: cornsilk;
-    box-shadow:0px 1px 15px 3px rgb(6, 50, 153);
-    font-size:2rem;
-    font-style:oblique;
-    text-transform:lowercase;
-    
-}
-#reset{
-    color:white;
-    background-color:red;
-    border:0px dashed rgb(46, 45, 45);
-    border-radius:10px;
-    font-size:1rem;
-}
-#reset:hover{
-    color:rgb(14, 60, 145);
-    background-color: cornsilk;
-    box-shadow:0px 1px 15px 3px rgba(153, 133, 6, 0.871);
-    font-size:2rem;
-    font-style:oblique;
-    text-transform:lowercase;
-    
+    box-shadow: 0px 1px 15px 3px rgb(6, 140, 153);
+    font-size: 2rem;
+    font-style: oblique;
+    text-transform: lowercase;
 }
 
+/* Styling for the Stop button */
+#stop {
+    color: whitesmoke;
+    background-color: rgb(100, 207, 237);
+    border: 1px solid rgb(98, 112, 139);
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+/* Hover effect for the Stop button */
+#stop:hover {
+    color: rgb(14, 60, 145);
+    background-color: cornsilk;
+    box-shadow: 0px 1px 15px 3px rgb(6, 50, 153);
+    font-size: 2rem;
+    font-style: oblique;
+    text-transform: lowercase;
+}
+
+/* Styling for the Reset button */
+#reset {
+    color: white;
+    background-color: red;
+    border: 0px dashed rgb(46, 45, 45);
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+/* Hover effect for the Reset button */
+#reset:hover {
+    color: rgb(14, 60, 145);
+    background-color: cornsilk;
+    box-shadow: 0px 1px 15px 3px rgba(153, 133, 6, 0.871);
+    font-size: 2rem;
+    font-style: oblique;
+    text-transform: lowercase;
+}
